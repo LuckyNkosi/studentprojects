@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./index.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html"><i class="fa fa-home" style="color: white;font-size: 24px;"></i></a>
+        <a href="./index.html" class="link">Diski Trials</a>
+        <a href="./about.html" class="link">About</a>
+    </header>
+
+    <div class="content">
+        <h4>Search Team</h4>
+        <h4>Available Teams</h4>
+    </div>
+
+    <div class="content">
+        <section>
+            <form>
+                <div class="row">
+                    <label>Date of Birth</label>
+                    <input id="dob" type="date" placeholder="Firstname">
+                </div>
+                <div class="row">
+                    <label>Province</label>
+                    <select id="province">
+                        <option value="">Select Province</option>
+                        <option value="EC">Eastern Cape</option>
+                        <option value="FS">Free State</option>
+                        <option value="GP">Gauteng</option>
+                        <option value="KZ">KwaZulu-Natal</option>
+                        <option value="LP">Limpopo</option>
+                        <option value="MP">Mpumalanga</option>
+                        <option value="NC">Northern Cape</option>
+                        <option value="NW">North West</option>
+                        <option value="WC">Western Cape</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label>Position</label>
+                    <select id="position">
+                        <option value="">Select Position</option>
+                        <option value="GK">Goal Keeper</option>
+                        <option value="DF">Defender</option>
+                        <option value="CM">Midfielder</option>
+                        <option value="ST">Striker</option>
+                    </select>
+                </div>
+
+                <div class="row">
+                    <span></span>
+                    <button type="button" onclick="searchTeam()">Search</button>
+                    <span></span>
+                </div>
+            </form>
+        </section>
+        <section id="card">
+            <div class="card">
+                <div>
+                    <span>Team</span>
+                    <span>Orlando Pirates</span>
+                </div>
+                <div>
+                    <span>Province</span>
+                    <span>GP</span>
+                </div>
+                <div>
+                    <span>Phone</span>
+                    <span>011 789 4562</span>
+                </div>
+                <div>
+                    <span>Email</span>
+                    <span>orlando@diski.co.za</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <img src="./facebook.png" width=20px/>
+            <img src="./instagram.png" width=20px/>
+            <img src="./twitter.png" width=20px/>
+            <img src="./email.png" width=20px/>
+        </div>
+    </footer>
+</body>
+</html>
