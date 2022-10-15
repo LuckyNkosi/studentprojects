@@ -1,0 +1,55 @@
+*{
+    background-color: aquamarine;
+}
+
+.collect {
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10vh 80vh 10vh;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    align-items: center;
+} 
+
+nav a:hover {
+    background-color: white;
+}
+
+.centered-form, .inputs{
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:center;
+    background-color: red;
+
+    height: 100%;
+    margin-bottom: 25%;
+}
+
+.centered-form{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.inputs {
+    margin-top: 25%;
+}
+
+.hidden {
+    width: 0%;
+    height: 0%;
+    font-size: 0pt;
+}
