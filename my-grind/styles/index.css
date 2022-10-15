@@ -1,0 +1,37 @@
+html{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.home{
+    margin: 15rem auto;
+    width: 60%;
+    background-color:red ;
+    padding: 30px;
+    height: 20%;
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn-learner{
+    border-radius: 10px;
+    padding: 5px;
+    border:1px solid #0cb3fa ;
+    background-color:red ;
+    color: white;
+width: 250px;
+}
+
+#btn-teacher{
+    border-radius: 10px;
+    padding: 5px;
+    border:1px solid yellow ;
+    background-color:red ;
+    color: white;
+width: 250px;
+}

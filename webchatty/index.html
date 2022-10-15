@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CHATTY</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>WEBCHATTY</h1>
+        </div>
+        <div class="body">
+            <p class="message">Hello Omolemo, how have you been</p>
+            <p class="message user_message">Hi Chatty, I've been okay</p>
+            <p class="message" id="reply">That's great to hear, how's school?</p>
+            <p class="message user_message user_text" id="userTextOutput"></p>
+        </div>
+        <div class="footer">
+            <form>
+                <input type="text" name="" id="userText">
+                <button type="button" onclick="display()">SEND</button>
+                    <script>
+                        function display() {
+
+                            //Assigning the variable to the user input
+                            var userText = document.getElementById("userText").value;
+
+                            // to print the input here
+                            document.getElementById("userTextOutput").innerHTML = userText;
+                        }
+                    </script>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

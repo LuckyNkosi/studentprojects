@@ -1,0 +1,16 @@
+html {
+    margin: 0
+}
+
+nav {
+    height: 100px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 70px;
+}
+
+section{text-align: center;}
